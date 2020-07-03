@@ -1,0 +1,22 @@
+.align{
+
+    margin:0px auto;
+    display: block;
+    text-align:center;
+    height:500px;
+    position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.space{
+  margin-bottom: 20px;
+  margin-top:20px;
+
+}
+.vid{
+  box-shadow: 0 5px 10px 0 #c4c9bf;
+  
+}

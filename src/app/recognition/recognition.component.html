@@ -1,0 +1,28 @@
+<app-header></app-header>
+    <mat-card class="align">
+        
+        <mat-card-content>
+            <div>
+              Capture an image
+            </div>
+            <div class="p-1">
+                <video #video class="vid" autoplay></video>
+            </div>
+            <div class="space">
+                
+            </div>
+            <div class="pb-2">
+                <button mat-raised-button color="primary" (click)="capture()">Capture Image</button>
+            </div>
+            <div class="space">
+                
+            </div>
+            <div class="p-1">
+                <canvas #canvas class="vid"></canvas>
+            </div>
+            <div class="space">
+                
+            </div>
+            <div><textarea cols="80" rows="4">{{imgAsDataURL}}</textarea></div>
+        </mat-card-content>
+    </mat-card>

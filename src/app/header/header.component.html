@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <h1>
+      CapFacia
+    </h1>
+    <mat-icon>camera</mat-icon>
+    <span class="spacer"></span>
+    <div>
+        <button mat-fab color="primary"  routerLink="/recognition" aria-label="Example icon button with a home icon">
+          <mat-icon>home</mat-icon>
+        </button>
+      </div>
+<button mat-button routerLink="/logout" (click)="onLogout()">Logout</button>
+  </mat-toolbar>
